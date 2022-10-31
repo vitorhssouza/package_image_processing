@@ -10,9 +10,10 @@ def plot_image(image):
 
 def plot_result(*args):
     number_images = len(args)
+    names_lst = list()
     fig, axis = plt.subplot(nrows=1, ncols = number_images, figsize=(12,4))
     names_lst.append('Result')
-    for ax, name, image in zip(axis, name_lst, args):
+    for ax, name, image in zip(axis, names_lst, args):
         ax.set_title(name)
         ax.imshow(image, cmap='gray')
         ax.axis('off')

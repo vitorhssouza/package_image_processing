@@ -8,7 +8,7 @@ Desafio 2 bootcamp - dio
 Data: 31/10/2022
 -----------------------------------------
 ### Descrição
-O pacote "package_image_processing" é usado para:
+O pacote "package_image_processing_vitor_souza" é usado para:
 
 - Módulo "Processing":
   - Correspondência de histograma;
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 - [x] Instalção do Pacote
 
-Use o gerenciador de pacotes ```pip install -i https://test.pypi.org/simple/ package-image-processing ```para instalar image_processing-test
+Use o gerenciador de pacotes ```pip install -i https://test.pypi.org/simple/ package-image-processing-vitor-souza ```para instalar image_processing-test
 
 ```bash
 pip install image-processing-test
