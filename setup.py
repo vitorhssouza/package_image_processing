@@ -7,11 +7,11 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_image_processing_DiO",
+    name="package_image_processing",
     version="0.0.1",
     author="Vitor Souza",
     author_email="vitorugo_kta@hotmail.com",
-    description="Test version Image processing package using skimage. This project belongs to Karina Tiemi Kato.",
+    description="Test version Image processing package using skimage.",
     long_description=page_description,
     long_description_content_type="text/markdown",
     url="https://github.com/vitorhssouza/package_image_processing",
