@@ -7,8 +7,8 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_image_processing",
-    version="0.0.1",
+    name="package_image_processing_vitor_souza",
+    version="0.0.2",
     author="Vitor Souza",
     author_email="vitorugo_kta@hotmail.com",
     description="Test version Image processing package using skimage.",
@@ -17,5 +17,5 @@ setup(
     url="https://github.com/vitorhssouza/package_image_processing",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.3',
+    python_requires='>=3.7',
 )

@@ -1,3 +1,5 @@
 /env/
 /.idea/
 .idea
+/dist/
+/package_image_processing.egg-info/
